@@ -1,5 +1,5 @@
 Team Members:
-1.Arihanth Parshwanath A
+1.Arihanth Parswanath A
 2.Hariram S
 3.Ganesh S
 4.Sri Hariprasad 
