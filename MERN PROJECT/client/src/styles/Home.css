@@ -1,0 +1,58 @@
+.HomePage {
+    margin-top: 15vh; /* Adjusted to create balanced space */
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.home-banner img {
+    height: 58vh;
+    width: 100%; /* Ensures it spans the container */
+    margin-left: auto; /* Center the image */
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-categories-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem; /* Add gap for uniform spacing */
+    padding: 2rem 1rem; /* Adjusted to add internal space */
+    margin-top: 8vh;
+    margin-bottom: 12vh;
+}
+
+.home-category-card {
+    text-align: center;
+    overflow: hidden;
+    width: 200px;
+    height: 220px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none; /* Removed border for a cleaner appearance */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.home-category-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px, rgba(0, 0, 0, 0.05) 0px 10px 40px;
+    transform: translateY(-5px);
+}
+
+.home-category-card img {
+    width: 100%; /* Make it fill the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 1rem;
+}
+
+.home-category-card h5 {
+    position: relative;
+    top: -30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Modernized background */
+    height: 50px;
+    padding-top: 10px;
+    color: #333; /* Darker shade for better contrast */
+    font-weight: 500;
+}
